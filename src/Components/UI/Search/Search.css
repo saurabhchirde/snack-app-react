@@ -1,0 +1,27 @@
+.search-container {
+  margin: 2rem auto 1rem;
+  background-color: var(--faint-gray);
+  border-radius: 20px;
+  width: 60%;
+  height: 2.8rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.search-container input {
+  width: 80%;
+  height: 1.8rem;
+  font-size: 1.3rem;
+  border: none;
+  background-color: transparent;
+}
+
+.search-container input:focus {
+  outline: none;
+}
+
+.search-container i {
+  font-size: 1.2rem;
+  color: var(--primary-color);
+}

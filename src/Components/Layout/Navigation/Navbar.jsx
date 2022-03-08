@@ -1,7 +1,6 @@
 import React from "react";
 import logo from "../../../Data/Assets/Logo/logo.svg";
 import { useModal } from "../../Context/ModalContext";
-import "./Navbar.css";
 
 const Navbar = () => {
   const {
@@ -26,18 +25,8 @@ const Navbar = () => {
   return (
     <div className="desktop-navigation-bar">
       <a href="/">
-        <img className="company-logo" src={logo} alt="logo" />
+        <img className="logo" src={logo} alt="logo" />
       </a>
-      <div className="outline-search-input">
-        <label>
-          <div className="input-icon">
-            <a href="">
-              <i className="fas fa-search"></i>
-            </a>
-            <input type="search" name="search" placeholder="Search" />
-          </div>
-        </label>
-      </div>
       <div className="nav-bar-btns">
         <button
           onClick={onNavbarLoginClickHandler}

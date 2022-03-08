@@ -1,0 +1,8 @@
+.header-cards-container {
+  display: flex;
+  align-items: center;
+  overflow-x: scroll;
+  width: 78%;
+  margin: 1rem auto 5rem;
+  padding: 1rem 0 2rem;
+}

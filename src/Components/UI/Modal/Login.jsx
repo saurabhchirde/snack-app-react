@@ -46,6 +46,7 @@ const Login = () => {
 
   return (
     <>
+      <div className="modal-backdrop"></div>
       <div className="signin-modal">
         <h1>Welcome Back</h1>
         <p>Enter your credentials to access your account</p>
